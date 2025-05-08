@@ -1,8 +1,8 @@
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_API_BASE_URL;
-axios.defaults.baseURL = baseURL;
+// const baseURL = import.meta.env.VITE_API_BASE_URL;
+// axios.defaults.baseURL = baseURL;
 
 interface Message {
   sender: "bot" | "user";
